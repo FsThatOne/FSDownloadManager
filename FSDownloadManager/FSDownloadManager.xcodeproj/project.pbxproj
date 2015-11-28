@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B66845AF1C0A09AD00D09F36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B66845AE1C0A09AD00D09F36 /* main.m */; };
+		B66845B21C0A09AD00D09F36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B66845B11C0A09AD00D09F36 /* AppDelegate.m */; };
+		B66845B51C0A09AD00D09F36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66845B41C0A09AD00D09F36 /* ViewController.m */; };
+		B66845B81C0A09AD00D09F36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66845B61C0A09AD00D09F36 /* Main.storyboard */; };
+		B66845BA1C0A09AD00D09F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66845B91C0A09AD00D09F36 /* Assets.xcassets */; };
+		B66845BD1C0A09AD00D09F36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66845BB1C0A09AD00D09F36 /* LaunchScreen.storyboard */; };
+		B66845C81C0A09AD00D09F36 /* FSDownloadManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B66845C71C0A09AD00D09F36 /* FSDownloadManagerTests.m */; };
+		B66845D31C0A09AD00D09F36 /* FSDownloadManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B66845D21C0A09AD00D09F36 /* FSDownloadManagerUITests.m */; };
+		B66845EB1C0A0C1700D09F36 /* FSDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B66845E71C0A0C1700D09F36 /* FSDownloadOperation.m */; };
+		B66845EC1C0A0C1700D09F36 /* FSDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B66845E91C0A0C1700D09F36 /* FSDownloadManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B66845C41C0A09AD00D09F36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B66845A21C0A09AD00D09F36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B66845A91C0A09AD00D09F36;
+			remoteInfo = FSDownloadManager;
+		};
+		B66845CF1C0A09AD00D09F36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B66845A21C0A09AD00D09F36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B66845A91C0A09AD00D09F36;
+			remoteInfo = FSDownloadManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B66845AA1C0A09AD00D09F36 /* FSDownloadManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSDownloadManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66845AE1C0A09AD00D09F36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B66845B01C0A09AD00D09F36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B66845B11C0A09AD00D09F36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B66845B31C0A09AD00D09F36 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B66845B41C0A09AD00D09F36 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B66845B71C0A09AD00D09F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B66845B91C0A09AD00D09F36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B66845BC1C0A09AD00D09F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B66845BE1C0A09AD00D09F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66845C31C0A09AD00D09F36 /* FSDownloadManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSDownloadManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66845C71C0A09AD00D09F36 /* FSDownloadManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSDownloadManagerTests.m; sourceTree = "<group>"; };
+		B66845C91C0A09AD00D09F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66845CE1C0A09AD00D09F36 /* FSDownloadManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSDownloadManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66845D21C0A09AD00D09F36 /* FSDownloadManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSDownloadManagerUITests.m; sourceTree = "<group>"; };
+		B66845D41C0A09AD00D09F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66845E71C0A0C1700D09F36 /* FSDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSDownloadOperation.m; path = FSDownloadManager/FSDownloadOperation.m; sourceTree = "<group>"; };
+		B66845E81C0A0C1700D09F36 /* FSDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSDownloadOperation.h; path = FSDownloadManager/FSDownloadOperation.h; sourceTree = "<group>"; };
+		B66845E91C0A0C1700D09F36 /* FSDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSDownloadManager.m; path = FSDownloadManager/FSDownloadManager.m; sourceTree = "<group>"; };
+		B66845EA1C0A0C1700D09F36 /* FSDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSDownloadManager.h; path = FSDownloadManager/FSDownloadManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B66845A71C0A09AD00D09F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66845C01C0A09AD00D09F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66845CB1C0A09AD00D09F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B66845A11C0A09AD00D09F36 = {
+			isa = PBXGroup;
+			children = (
+				B66845AC1C0A09AD00D09F36 /* FSDownloadManager */,
+				B66845C61C0A09AD00D09F36 /* FSDownloadManagerTests */,
+				B66845D11C0A09AD00D09F36 /* FSDownloadManagerUITests */,
+				B66845AB1C0A09AD00D09F36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B66845AB1C0A09AD00D09F36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B66845AA1C0A09AD00D09F36 /* FSDownloadManager.app */,
+				B66845C31C0A09AD00D09F36 /* FSDownloadManagerTests.xctest */,
+				B66845CE1C0A09AD00D09F36 /* FSDownloadManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B66845AC1C0A09AD00D09F36 /* FSDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				B66845E61C0A0BD300D09F36 /* FSDownloadTools */,
+				B66845B01C0A09AD00D09F36 /* AppDelegate.h */,
+				B66845B11C0A09AD00D09F36 /* AppDelegate.m */,
+				B66845B31C0A09AD00D09F36 /* ViewController.h */,
+				B66845B41C0A09AD00D09F36 /* ViewController.m */,
+				B66845B61C0A09AD00D09F36 /* Main.storyboard */,
+				B66845B91C0A09AD00D09F36 /* Assets.xcassets */,
+				B66845BB1C0A09AD00D09F36 /* LaunchScreen.storyboard */,
+				B66845BE1C0A09AD00D09F36 /* Info.plist */,
+				B66845AD1C0A09AD00D09F36 /* Supporting Files */,
+			);
+			path = FSDownloadManager;
+			sourceTree = "<group>";
+		};
+		B66845AD1C0A09AD00D09F36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B66845AE1C0A09AD00D09F36 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B66845C61C0A09AD00D09F36 /* FSDownloadManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B66845C71C0A09AD00D09F36 /* FSDownloadManagerTests.m */,
+				B66845C91C0A09AD00D09F36 /* Info.plist */,
+			);
+			path = FSDownloadManagerTests;
+			sourceTree = "<group>";
+		};
+		B66845D11C0A09AD00D09F36 /* FSDownloadManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B66845D21C0A09AD00D09F36 /* FSDownloadManagerUITests.m */,
+				B66845D41C0A09AD00D09F36 /* Info.plist */,
+			);
+			path = FSDownloadManagerUITests;
+			sourceTree = "<group>";
+		};
+		B66845E61C0A0BD300D09F36 /* FSDownloadTools */ = {
+			isa = PBXGroup;
+			children = (
+				B66845E71C0A0C1700D09F36 /* FSDownloadOperation.m */,
+				B66845E81C0A0C1700D09F36 /* FSDownloadOperation.h */,
+				B66845E91C0A0C1700D09F36 /* FSDownloadManager.m */,
+				B66845EA1C0A0C1700D09F36 /* FSDownloadManager.h */,
+			);
+			name = FSDownloadTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B66845A91C0A09AD00D09F36 /* FSDownloadManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66845D71C0A09AD00D09F36 /* Build configuration list for PBXNativeTarget "FSDownloadManager" */;
+			buildPhases = (
+				B66845A61C0A09AD00D09F36 /* Sources */,
+				B66845A71C0A09AD00D09F36 /* Frameworks */,
+				B66845A81C0A09AD00D09F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSDownloadManager;
+			productName = FSDownloadManager;
+			productReference = B66845AA1C0A09AD00D09F36 /* FSDownloadManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B66845C21C0A09AD00D09F36 /* FSDownloadManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66845DA1C0A09AD00D09F36 /* Build configuration list for PBXNativeTarget "FSDownloadManagerTests" */;
+			buildPhases = (
+				B66845BF1C0A09AD00D09F36 /* Sources */,
+				B66845C01C0A09AD00D09F36 /* Frameworks */,
+				B66845C11C0A09AD00D09F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B66845C51C0A09AD00D09F36 /* PBXTargetDependency */,
+			);
+			name = FSDownloadManagerTests;
+			productName = FSDownloadManagerTests;
+			productReference = B66845C31C0A09AD00D09F36 /* FSDownloadManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B66845CD1C0A09AD00D09F36 /* FSDownloadManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66845DD1C0A09AD00D09F36 /* Build configuration list for PBXNativeTarget "FSDownloadManagerUITests" */;
+			buildPhases = (
+				B66845CA1C0A09AD00D09F36 /* Sources */,
+				B66845CB1C0A09AD00D09F36 /* Frameworks */,
+				B66845CC1C0A09AD00D09F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B66845D01C0A09AD00D09F36 /* PBXTargetDependency */,
+			);
+			name = FSDownloadManagerUITests;
+			productName = FSDownloadManagerUITests;
+			productReference = B66845CE1C0A09AD00D09F36 /* FSDownloadManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B66845A21C0A09AD00D09F36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = FSxiaoyi;
+				TargetAttributes = {
+					B66845A91C0A09AD00D09F36 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = YHAR24Y35Q;
+					};
+					B66845C21C0A09AD00D09F36 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = YHAR24Y35Q;
+						TestTargetID = B66845A91C0A09AD00D09F36;
+					};
+					B66845CD1C0A09AD00D09F36 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = YHAR24Y35Q;
+						TestTargetID = B66845A91C0A09AD00D09F36;
+					};
+				};
+			};
+			buildConfigurationList = B66845A51C0A09AD00D09F36 /* Build configuration list for PBXProject "FSDownloadManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B66845A11C0A09AD00D09F36;
+			productRefGroup = B66845AB1C0A09AD00D09F36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B66845A91C0A09AD00D09F36 /* FSDownloadManager */,
+				B66845C21C0A09AD00D09F36 /* FSDownloadManagerTests */,
+				B66845CD1C0A09AD00D09F36 /* FSDownloadManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B66845A81C0A09AD00D09F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66845BD1C0A09AD00D09F36 /* LaunchScreen.storyboard in Resources */,
+				B66845BA1C0A09AD00D09F36 /* Assets.xcassets in Resources */,
+				B66845B81C0A09AD00D09F36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66845C11C0A09AD00D09F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66845CC1C0A09AD00D09F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B66845A61C0A09AD00D09F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66845B51C0A09AD00D09F36 /* ViewController.m in Sources */,
+				B66845EC1C0A0C1700D09F36 /* FSDownloadManager.m in Sources */,
+				B66845B21C0A09AD00D09F36 /* AppDelegate.m in Sources */,
+				B66845EB1C0A0C1700D09F36 /* FSDownloadOperation.m in Sources */,
+				B66845AF1C0A09AD00D09F36 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66845BF1C0A09AD00D09F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66845C81C0A09AD00D09F36 /* FSDownloadManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66845CA1C0A09AD00D09F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66845D31C0A09AD00D09F36 /* FSDownloadManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B66845C51C0A09AD00D09F36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B66845A91C0A09AD00D09F36 /* FSDownloadManager */;
+			targetProxy = B66845C41C0A09AD00D09F36 /* PBXContainerItemProxy */;
+		};
+		B66845D01C0A09AD00D09F36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B66845A91C0A09AD00D09F36 /* FSDownloadManager */;
+			targetProxy = B66845CF1C0A09AD00D09F36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B66845B61C0A09AD00D09F36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B66845B71C0A09AD00D09F36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B66845BB1C0A09AD00D09F36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B66845BC1C0A09AD00D09F36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B66845D51C0A09AD00D09F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B66845D61C0A09AD00D09F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B66845D81C0A09AD00D09F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FSDownloadManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsymbio.FSDownloadManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B66845D91C0A09AD00D09F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FSDownloadManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsymbio.FSDownloadManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B66845DB1C0A09AD00D09F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FSDownloadManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsymbio.FSDownloadManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSDownloadManager.app/FSDownloadManager";
+			};
+			name = Debug;
+		};
+		B66845DC1C0A09AD00D09F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FSDownloadManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsymbio.FSDownloadManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSDownloadManager.app/FSDownloadManager";
+			};
+			name = Release;
+		};
+		B66845DE1C0A09AD00D09F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FSDownloadManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsymbio.FSDownloadManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FSDownloadManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B66845DF1C0A09AD00D09F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FSDownloadManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsymbio.FSDownloadManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FSDownloadManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B66845A51C0A09AD00D09F36 /* Build configuration list for PBXProject "FSDownloadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66845D51C0A09AD00D09F36 /* Debug */,
+				B66845D61C0A09AD00D09F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66845D71C0A09AD00D09F36 /* Build configuration list for PBXNativeTarget "FSDownloadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66845D81C0A09AD00D09F36 /* Debug */,
+				B66845D91C0A09AD00D09F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B66845DA1C0A09AD00D09F36 /* Build configuration list for PBXNativeTarget "FSDownloadManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66845DB1C0A09AD00D09F36 /* Debug */,
+				B66845DC1C0A09AD00D09F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B66845DD1C0A09AD00D09F36 /* Build configuration list for PBXNativeTarget "FSDownloadManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66845DE1C0A09AD00D09F36 /* Debug */,
+				B66845DF1C0A09AD00D09F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B66845A21C0A09AD00D09F36 /* Project object */;
+}
